@@ -47,7 +47,7 @@ function Home(props) {
 
       <section id="profile" className="py-5 my-5">
         <Container>
-          <h1 className="text-center">Hai</h1>
+          <h1 className="text-center">Hai Hello</h1>
         </Container>
       </section>
     </>
