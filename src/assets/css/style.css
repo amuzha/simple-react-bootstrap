@@ -1,0 +1,65 @@
+[data-bs-theme="light"] {
+    background-color: #ffffff;
+}
+  
+[data-bs-theme="dark"] {
+    background-color: #333333;
+}
+
+.app {
+    transition: background-color 0.5s ease;
+}
+
+#hero {
+    padding: 0 0 100px;
+}
+
+#hero .projects {
+    height: 320px;
+}
+
+#hero .banner {
+    background-image: url(https://i.pinimg.com/564x/12/19/91/121991a40151cf3ad47ae68d0eae3cf9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    transition: background-image 1s ease-in-out;
+}
+
+#hero .banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+}
+
+
+#hero .banner h1 {
+    position: relative;
+    z-index: 1;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#hero .banner h2 {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#hero .banner button {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
